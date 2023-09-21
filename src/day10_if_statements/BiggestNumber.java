@@ -8,6 +8,7 @@ public class BiggestNumber {
       declare and assign 3 int variables
       between the 3 numbers find the print the biggest one
 
+
    */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
