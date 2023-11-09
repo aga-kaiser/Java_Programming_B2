@@ -21,6 +21,5 @@ public class SortStringExample {
         //Special chars > numbers > uppercase (A-Z) > lowercase (a-z)
         System.out.println(Arrays.toString(arr2));
 
-
     }
 }
