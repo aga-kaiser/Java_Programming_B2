@@ -6,22 +6,20 @@ public class SortStringExample {
     public static void main(String[] args) {
 
 
-        int [] nums = {3, 5, 7, 3243, 8,23, 23};
+        String [] arr = {"java", "api", "selenium", "dabase"};
+        System.out.println(Arrays.toString(arr));
 
-        System.out.println(Arrays.toString(nums));
-
-
-        // .sort()
-        Arrays.sort(nums); // [3, 5, 7, 8, 23, 23, 3243]
-        System.out.println(Arrays.toString(nums));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
 
 
-        // Find the min
-        System.out.println(nums[0]);
-        // Find the max
-        System.out.println(nums[nums.length-1]);
-
-
+        System.out.println("--------------------------------");
+        String [] arr2 = {"java", "api", "Selenium", "12", "dabase", "$%", "Apple",  "aPI", " ", "34"};
+        System.out.println(Arrays.toString(arr2));
+        Arrays.sort(arr2);
+        //Lexigraphically  ---- > in ascending order related to ASCII values
+        //Special chars > numbers > uppercase (A-Z) > lowercase (a-z)
+        System.out.println(Arrays.toString(arr2));
 
     }
 }
