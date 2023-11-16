@@ -11,7 +11,7 @@ import java.util.ArrayList;
     .size()
     .contains (parameter) - > if the given parameter exists in the Arraylist, it returns true. If not, it returns false
  */
-public class containsMethod {
+public class ContainsMethod {
     public static void main(String[] args) {
 
         ArrayList <Integer> nums = new ArrayList<>();
